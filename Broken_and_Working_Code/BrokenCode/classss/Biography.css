@@ -1,0 +1,17 @@
+.title {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.styledImage {
+    width: 500px;
+    border: 10px solid black;
+    border-radius: 40px;

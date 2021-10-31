@@ -1,0 +1,50 @@
+.title {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color:blue;
+}
+.green {
+    color:green;
+}
+
+.large {
+    font-size:160%;
+}
+
+.small {
+    font-size:70%;
+}
+
+.name {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.change {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.all {
+    font-size:160%;
+    color:orange;
+    font-weight: bold;
+}
+
+.styledFont {
+    color:green;
+}
+
+.styledImage {
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 40px;
+    border-color: blue;
+}
