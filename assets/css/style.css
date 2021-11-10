@@ -1,0 +1,237 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section {
+    padding: 100px;
+}
+
+.hero {
+    position: relative;
+    background: url("../images/picture1.jpg");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;    
+}
+.hero h2 {
+    font-size: 40px;
+    color: lightblue;
+    font-weight: 500;
+}
+.hero h3 {
+    font-size: 20px;
+    color: lightblue;
+}
+.button {
+    position: relative;
+    background: green;
+    display: inline-block;
+    color: lightblue;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+header {
+    position: absolute;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+header a {
+    text-decoration: none;
+}
+header .top {
+    color: green;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     display: flex;
+    justify-content: space-around;
+}
+header ul {
+    position: relative;
+    display: flex;
+    font-size: 20px;
+}
+header ul a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a:hover {
+    color: rgb(255, 30, 0);
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    margin: 20px;
+}
+.run{
+    
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+  
+  .run h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+  }  
+
+.heading h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}   
+
+.flex-row h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.box
+{
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+    font-size: 20px;;
+    min-width: 50%;
+    border: 5px solid black;
+    border-radius: 40px;
+    background-color: whitesmoke;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+ height: 400px;
+ width: 30;
+}
+
+.img2{
+    height: 300px;
+    width: 20;
+}
+.run h3 { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.about-me {
+    background-color: dodgerblue;
+
+}
+.projects {
+    background-color: 
+    #81B622;
+    
+}
+.box1 {
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+    font-size: 20px;;
+    min-width: 50%;
+    border: 5px solid black;
+    border-radius: 40px;
+    background-color: whitesmoke;
+}
+.contact{
+    background-color: coral;
+}
+.flex-row{
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+.flex-row h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.formbox {
+    min-width: 60%;
+    margin-left: 400px;
+    margin-top: 5px;
+}
+.formbox form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.formbox input,
+.formbox textarea {
+    margin-bottom: 20 px;
+    padding: 15px;
+    font-size: 16px;
+    background-color:whitesmoke;
+    color: black;
+}
+.formbox form textarea {
+    min-height: 200px;
+}
+.contactInfoBox {
+    position: relative;
+}
+.contactInfoBox .box2{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.text {
+    margin-bottom: 20px;
+    color: black;
+    margin: 20px;
+}
+@media (max-width:991px)
+{
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: absolute;
+    }
+    header a {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul{
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+}
