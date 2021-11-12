@@ -90,27 +90,18 @@ header ul li a:hover {
     
     text-align: center;
     margin-bottom: 20px;
-   
+    
 }
-  
-  .run h3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-size: 30px;
-  }  
+    
+    
 
-.heading h2 {
+.heading h2, .flex-row h2, .run h3, .flex-row h3  {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 30px;
 }   
 
-.flex-row h2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-size: 30px;
-}
-.box
+.box, .box1
 {
     padding-top: 80px;
     padding-left: 50px;
@@ -126,30 +117,21 @@ header ul li a:hover {
     
 }
 
-.content{
-    display: flex;
-    flex-direction: row;
-}
-.fixed {
+.content, .fixed {
     display: flex;
     flex-direction: row;
 }
 
+
 .img {
- height: 400px;
- width: 300px;
+    height: 400px;
+    width: 300px;
 
 }
 
 .img2{
     height: 300px;
     width: 400px;
-    
-}
-.run h3 { 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-size: 30px;
     
 }
 .about-me {
@@ -161,20 +143,7 @@ header ul li a:hover {
     #81B622;
     
 }
-.box1 {
-    padding-top: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
-    color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
-    sans-serif;
-    font-size: 20px;;
-    min-width: 50%;
-    border: 5px solid black;
-    border-radius: 40px;
-    background-color: whitesmoke;
-   
-}
+
 .contact{
     background-color: coral;
     
@@ -190,15 +159,8 @@ header ul li a:hover {
     color: black;
     
 }
-.flex-row h3 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-size: 30px;
-    
-}
 .formbox {
     min-width: 30%;
-    
     margin-top: 5px;
 }
 .formbox form{
