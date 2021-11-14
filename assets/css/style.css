@@ -6,7 +6,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 section {
-    padding: 100px;
+    padding: 95px;
 }
 
 .hero {
@@ -109,8 +109,7 @@ header ul li a:hover {
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
     sans-serif;
-    font-size: 20px;;
-    min-width: 50%;
+    font-size: auto;
     border: 5px solid black;
     border-radius: 40px;
     background-color: whitesmoke;
@@ -265,6 +264,10 @@ footer h2 {
     section {
     font-size: 10px;
     }
+    .box1, .box2{
+        font-size: 4.5vw;
+    }
+
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px){
