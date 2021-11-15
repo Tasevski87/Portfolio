@@ -9,6 +9,6 @@
 
 ## On the bottom or in the contact section I added a list of my information like street adress, phone number and also email. In the same section there is a box that costumer can left me a messeage with full name and email.
  
-## At the very bottom I added a footer that in the future will be updated with a privacy policy.
+## At the very bottom I added a footer and facbook social media.
 
 ##  My Portfolio website is build to be compatible  with media query for smaller desktop screens, media query for tablets and smaller screens and also media query for mobile phones and smaller. 

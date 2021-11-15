@@ -99,6 +99,7 @@ header ul li a:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 30px;
+    
 }   
 
 .box, .box1
@@ -198,10 +199,23 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    
 }
 footer h2 {
     font-size: 15px;
 }
+.fa-facebook {
+        background: #3B5998;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;     
+        
+}
+
+
 @media screen and (max-width:980px) {
     header {
         padding-bottom: 0;
