@@ -46,6 +46,7 @@ header {
     justify-content: space-around;
     align-items: center;
     z-index: 1;
+    
 }
 header a {
     text-decoration: none;
@@ -83,8 +84,7 @@ header ul li a:hover {
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
-    color: black;
-    margin: 20px;
+    color: lightcoral;
 }
 .run{
     
@@ -139,8 +139,7 @@ header ul li a:hover {
 
 }
 .projects {
-    background-color: 
-    #81B622;
+    background-color: rgba(255, 0, 0, 0.6);
     
 }
 
